@@ -1,0 +1,23 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+sismotos-frontend/node_modules
+sismotos-frontend/.pnp
+sismotos-frontend.pnp.js
+
+# testing
+sismotos-frontend/coverage
+
+# production
+sismotos-frontend/build
+
+# misc
+sismotos-frontend/.DS_Store
+sismotos-frontend/.env.local
+sismotos-frontend/.env.development.local
+sismotos-frontend/.env.test.local
+sismotos-frontend/.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
